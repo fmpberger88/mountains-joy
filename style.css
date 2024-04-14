@@ -45,12 +45,45 @@ ul li a:hover {
   color: red;
 }
 
-main {
+.mainHome {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("public/images/professional-chef-preparing-food-kitchen.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 4rem;
+}
+
+.mainFood {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("public/images/2148340392.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 4rem;
+}
+
+.mainWines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("public/images/2147764837.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 4rem;
+}
+
+.mainContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("public/images/pensive-man-sitting-bar-counter.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 4rem;
@@ -94,6 +127,16 @@ main {
   margin: 60px 0;
 }
 
+.newsHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+}
+
 .news {
   display: flex;
   flex-direction: column;
@@ -102,6 +145,7 @@ main {
   width: 50%;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 40px;
+  margin: 180px 0;
 }
 
 .news h2 {
@@ -151,8 +195,26 @@ footer {
     color: red;
   }
 
-  main {
+  .mainHome {
     background-image: url("public/images/minimalist-salad-round-shape-salt.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mainFood {
+    background-image: url("public/images/uncooked-seafood-fish-pan.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mainWines {
+    background-image: url("public/images/vertical-grayscale-shot-glass-wooden-table-inside-closet.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mainContact {
+    background-image: url("public/images/black-white-portrait-working-woman-celebration-labour-day.webp");
     background-size: cover;
     background-position: center;
   }
@@ -169,7 +231,11 @@ footer {
   .news {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.7);
+  }
 
+  .newsHome {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   .news p {
