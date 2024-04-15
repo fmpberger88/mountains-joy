@@ -248,3 +248,46 @@ footer {
   }
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin: 180px 0;
+  gap: 20px;
+}
+
+form input {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border: none;
+}
+
+form textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 10rem;
+  padding: 10px;
+  border: none;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+form button:hover {
+  transition-duration: 0.3s;
+  background-color: white;
+  color: black;
+}
+
