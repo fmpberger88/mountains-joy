@@ -50,7 +50,7 @@ ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("public/images/professional-chef-preparing-food-kitchen.webp");
+  background-image: url("/images/professional-chef-preparing-food-kitchen.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 4rem;
@@ -61,7 +61,7 @@ ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("public/images/2148340392.webp");
+  background-image: url("/images/2148340392.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 4rem;
@@ -72,7 +72,7 @@ ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("public/images/2147764837.webp");
+  background-image: url("/images/2147764837.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 4rem;
@@ -83,7 +83,7 @@ ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("public/images/pensive-man-sitting-bar-counter.webp");
+  background-image: url("/images/pensive-man-sitting-bar-counter.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 4rem;
@@ -196,25 +196,25 @@ footer {
   }
 
   .mainHome {
-    background-image: url("public/images/minimalist-salad-round-shape-salt.webp");
+    background-image: url("/images/minimalist-salad-round-shape-salt.webp");
     background-size: cover;
     background-position: center;
   }
 
   .mainFood {
-    background-image: url("public/images/uncooked-seafood-fish-pan.webp");
+    background-image: url("/images/uncooked-seafood-fish-pan.webp");
     background-size: cover;
     background-position: center;
   }
 
   .mainWines {
-    background-image: url("public/images/vertical-grayscale-shot-glass-wooden-table-inside-closet.webp");
+    background-image: url("/images/vertical-grayscale-shot-glass-wooden-table-inside-closet.webp");
     background-size: cover;
     background-position: center;
   }
 
   .mainContact {
-    background-image: url("public/images/black-white-portrait-working-woman-celebration-labour-day.webp");
+    background-image: url("/images/black-white-portrait-working-woman-celebration-labour-day.webp");
     background-size: cover;
     background-position: center;
   }

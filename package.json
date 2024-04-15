@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.5",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "vite": "^5.2.0"
   }
 }
